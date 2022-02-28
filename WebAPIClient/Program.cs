@@ -58,7 +58,7 @@ namespace WebAPIClient
                         break;
                     }
 
-                    var result = await client.GetAsync("https://pokeapi.co/api/v2/pokemon" + pokémonName.ToLower());
+                    var result = await client.GetAsync("https://pokeapi.co/api/v2/pokemon/" + pokémonName.ToLower());
                     var resultRead = await result.Content.ReadAsStringAsync();
                     var pokémon = JsonConvert.DeserializeObject<Pokémon>(resultRead);
 
@@ -68,7 +68,7 @@ namespace WebAPIClient
                     Console.WriteLine("Weight: " + pokémon.Weight + "lb");
                     Console.WriteLine("Height: " + pokémon.Height + "ft");
                     Console.WriteLine("Type(s):");
-                    pokémon.Types.ForEach(Task => Console.Write(" " + t.Type.Name));
+                    pokémon.Types.ForEach(t => Console.Write(" " + t.Type.Name));
                     Console.WriteLine("\n---");
 
                 }
