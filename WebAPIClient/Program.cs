@@ -58,7 +58,7 @@ namespace WebAPIClient
                         break;
                     }
 
-                    var result = await client.GetAsync("https://pokeapi.co/api/v2/pokémon" + pokémonName.ToLower());
+                    var result = await client.GetAsync("https://pokeapi.co/api/v2/pokemon" + pokémonName.ToLower());
                     var resultRead = await result.Content.ReadAsStringAsync();
                     var pokémon = JsonConvert.DeserializeObject<Pokémon>(resultRead);
 
