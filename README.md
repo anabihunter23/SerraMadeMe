@@ -1,5 +1,5 @@
 IMPORTANT
-To view the readme with proper spacing, please click on it in the code and then read it through the source blob option or raw. If that doesn't work, there is also a screenshot in the screenshot folder.
+To view the readme with proper spacing, please click on it in the code and then read it through the source blob option or raw. If that doesn't work, there is also a screenshot in the screenshot folder within the API Final Project Folder.
 
 
 REQUIREMENTS
