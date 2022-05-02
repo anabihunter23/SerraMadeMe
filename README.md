@@ -1,3 +1,7 @@
+IMPORTANT
+To view the readme with proper spacing, please click on it in the code and then read it through the source blob option or raw. If that doesn't work, there is also a screenshot in the screenshot folder.
+
+
 REQUIREMENTS
 I did not complete the finish the consistent response model in time for the due date, but everything else is complete. 
 There is a slight error that seems to be happening with the LocationID foreign key in the Items table that references the LocationID in the Locations table. It keeps appearing as null. I think you also experienced this error in class with it showing up as null, but I forget how you fixed it. 
