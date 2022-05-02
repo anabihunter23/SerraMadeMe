@@ -17,13 +17,13 @@ RESPONSE1, REQUEST2, etc are used to reference screenshots in the project folder
 As I mentioned earlier, since I didn't finish the consistent response model, the response bodies don't let you know much unless you're using Postman.
 
 Endpoint                    Purpose                                       Request Body                Response Body
-GET api/Item                To return all the items in elden ring         N/A                         RESPONSE1
-POST api/Item               To add a new item into the database           REQUEST1                    N/A (I didn't finish the consistent response model)
-DELETE api/Location/{id}    To delete a specfiic location by ID           N/A                         N/A (I didn't finish the consistent response model)
+GET api/Location            Return info about elden ring locations        N/A                         RESPONSE1
+POST api/Location           To add a new location into the database       REQUEST2                    N/A (I didn't finish the consistent response model)
+DELETE api/Item/{id}        To delete a specfiic item by ID               N/A                         N/A (I didn't finish the consistent response model)
 
 If I were to have finished the consistent response model in time:
-  The response body for POST api/ITEM would let you know whether or not the item was added. 
-  The response body for DELETE api/Location/{Id} would let you know whether or not an item was deleted.
+  The response body for POST api/ITEM would let you know whether or not a location was added into the database. 
+  The response body for DELETE api/Item/{Id} would let you know whether or not an item was deleted from the database.
    
 
 WRAPPING THOUGHTS
